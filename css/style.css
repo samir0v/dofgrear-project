@@ -1,0 +1,56 @@
+/*CUSTOM STYLES*/
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+/*navbar*/
+.navbar.navbar-dark.bg-dark {
+    background: #000;
+}
+
+a.nav-link {
+    color: #000;
+}
+
+div.card :hover {
+    background: #f7f7f7;
+}
+
+/*cover*/
+#cover {
+    background: #721924;
+    background-size:cover;
+    color:white;
+    height: 100%;
+    text-align: center;
+    display:flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width:100%;
+}
+
+/* section-content*/
+.section-content {
+    padding: 80px 0px 80px 0px;
+}
+
+/*capacities - bg*/
+
+.section-even {
+    background: #F5FAFD
+}
+
+
+#footer {
+    color: #fff;
+    background: #000;
+}
+
+.has-scroll-reveal {
+        opacity: 0;
+        animation-play-state: paused;
+}
