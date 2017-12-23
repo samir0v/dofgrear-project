@@ -16,7 +16,7 @@
     <!-- lightbox from ekko -->
     <link rel="stylesheet" href="css/ekko-lightbox.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#main-nav-dof">
     <!--NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav-dof">
         <a href="#" class="navbar-brand">DOFGEAR</a>
@@ -27,7 +27,22 @@
         <div class="collapse navbar-collapse" id="topMainNavbar">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a href="#" class="nav-link active">Главная<span class="sr-only">(current)</span></a>
+                    <a href="#cover" class="nav-link">Top</a>
+                </li>
+                <li class="navbar-nav mr-auto">
+                    <a href="#intro" class="nav-link">Introduction</a>
+                </li>
+                <li class="navbar-nav mr-auto">
+                    <a href="#capabilities" class="nav-link">Capacities</a>
+                </li>
+                <li class="navbar-nav mr-auto">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="navbar-nav mr-auto">
+                    <a href="#description" class="nav-link">Description</a>
+                </li>
+                <li class="navbar-nav mr-auto">
+                    <a href="#extentions" class="nav-link">Extentions</a>
                 </li>
             </ul>
         </div>
@@ -53,15 +68,12 @@
             <div class="container scrollfadein">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <div class="card" style="height: 150px;">
-                          <div class="card-body">
-                              <h4 class="card-title">Sandal</h4>
-                              <h6 class="card-subtitle mb-2">3DOF | Sway &amp; Surge &amp; Traction loss+</h6>
-                              <p class="card-text">
+                              <h4>Sandal</h4>
+                              <h6>3DOF | Sway &amp; Surge &amp; Traction loss+</h6>
+                              <p>
                                   Sport Car Motion Simulator for home usage
                               </p>
-                          </div>
-                        </div> <!-- card end-->
+                          <!-- card end-->
                     </div>
                     <!-- COl 2 start-->
                     <div class="col-sm-12 col-md-6">
@@ -108,7 +120,7 @@
     </section>
    <!-- end gallery section -->
    <!-- lightbox section -->
-    <section id="lightbox">
+    <!-- <section id="lightbox">
         <div class="section-content">
             <div class="container scrollfadein">
                     <div class="row justify-content-center">
@@ -136,7 +148,7 @@
                         </div>
             </div>
         </div>
-    </section>
+    </section>  -->
    <!-- end lightbox section -->
     <!-- capabilities. introduction -->
     <section id="capabilities" class="section-even">
@@ -150,22 +162,14 @@
                         <img class="img img-fluid" src="img/HOT_3046.png">
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div class="card" style="height: 150px;">
-                          <div class="card-body">
-                              <h4 class="card-title">SimSandal</h4>
-                              <p class="card-text">
+                              <h4>SimSandal</h4>
+                              <p>
                               simulates motions of a sport car under a video game control, while creating life-like driving experience 
                               </p>
-                          </div>
-                        </div> <!-- card end-->
-                        <div class="card">
-                          <div class="card-body">
-                              <h4 class="card-title">SimSandal</h4>
-                              <p class="card-text">
+                              <h4>SimSandal</h4>
+                              <p>
                                   SimSandal simultaneously moves in multiple dimentions. Back-Force Tilt, Left-Right Tilt are available, and, the most satisfying feature so far –  drift simulation, which adds to realism in game situations, when car looses back wheels thrust, and especially in games with drift feature
                               </p>
-                          </div>
-                        </div> <!-- card end-->
                     </div>
                 </div> <!-- row end -->
             </div> <!--end container-->
@@ -212,7 +216,7 @@
     </section>
     <!--end features -->
     <!-- description-->
-    <section class="section-even">
+    <section id="description" class="section-even">
         <div class="section-content">
             <div class="container scrollfadein">
                 <h1 class="text-center" style="padding: 0px 0px 80px 0px">Description</h1>
@@ -223,10 +227,10 @@ SimSandal's engine is brought to action by TRANSTECHNO industrial level reductor
 SimSandal is ready for instant Logitech G series controllers mounting. 
 SimSandal offers 2 different driver frame versions, left-sided, or right-sides, from everyone, from any country. The other side is used for speed hande and various accessories.</col-sm-12>
                     <col-sm-12 class="col-md-6">SimSandal позволяет прикрепить к раме спортивное кресло любой конструкции, которое вам нравится. При установке своего кресла нужно соблюдать центр тяжести! Можно просверлить отверстия для крепления в нужных местах.
-SimSandal имеет отличную устойчивость на полу, даже при самых крайних углах наклонов, что придает уверенности при игре.
-SimSandal очень тихо работает, совсем не скрипит.
-SimSandal сделан полностью из металлического профиля, из долговечных материалов, очень тщательно подобранных друг к другу.
-SimSandal спроектирован  для высокой прочности и надёжности, выдержит игрока весом в 150кг, и даже больше.</col-sm-12>
+SimSandal has excellent fixity on the floor, even with extreme tilt angle, which imparts confidence in the process of playing.
+SimSandal works really quite, without any extraneous noises.
+SimSandal is really sturdy by design, it is made from robust fullmetal parts.
+SimSandal is designed to be solid and safe. It is able to endure up to 150 kg and even more.</col-sm-12>
                 </div>
             </div>
         </div>
@@ -236,39 +240,43 @@ SimSandal спроектирован  для высокой прочности �
     <section id="extentions">
         <div class="section-content">
             <div class="container scrollfadein">
-                <h1 class="text-center" style="padding: 0px 0px 80px 0px">Расширения</h1>
+                <h1 class="text-center" style="padding: 0px 0px 80px 0px">Extentions</h1>
                     <div class="row">
                         <div class="col-sm-6 col-md-3">
-                            <div class="card">
+                            <div class="card center-block" style="height:200px;">
+                                <!-- <img src="img/icons/gamepad.svg" style="width:64px;" alt="" class="card-img-top"> -->
                             <div class="card-body">
-                                <h5>Монитор</h5>
-                                <p>Можно прикрепить к платформе перед рулём не тяжёлый монитор,  до 29'</p>
+                                <h5>Monitors</h5>
+                                <p>It is possible to attach light monitor 29'</p>
                             </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <div class="card">
+                            <div class="card" style="height:200px;">
+                                    <!-- <img src="img/icons/gamepad.svg" style="width:64px;" alt="" class="card-img-top"> -->
                             <div class="card-body">
-                                <h5>Управление</h5>
-                                <p>Можно прикрепить свой руль, свои педали, ручки тормоза, акустические колонки, площадку для клавиатуры,  камеру GoPro , различные приборы и много другого.</p>
+                                <h5>Control</h5>
+                                <p>It is possible to attach various controllers and accessories, like keyboard, steering wheel or pedals</p>
                             </div>
                             </div>                
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <div class="card">
+                            <div class="card" style="height:200px;">
+                                    <!-- <img src="img/icons/gamepad.svg" style="width:64px;" alt="" class="card-img-top"> -->
                             <div class="card-body">
-                                <h5>Эстетичность</h5>
-                                <p>Можно спрятать провода от руля внутри трубы,  что значительно улучшает внешний вид.</p>
+                                <h5>Aesthetics</h5>
+                                <p>It is possible to hide cables inside of the tube,  which will change look and feel</p>
                             </div>
                             </div>                
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <div class="card">
+                            <div class="card" style="height:200px;">
+                                    <!-- <img src="img/icons/gamepad.svg" style="width:64px;" alt="" class="card-img-top"> -->
                             <div class="card-body">
-                                <h5>Подсветка</h5>
-                                <p>Можно оснастить платформу дополнительной подсветкой.</p>
+                                <h5>Lights</h5>
+                                <p>It is possible to mount additional light sources to platfrom</p>
                             </div>
-                            </div>                
+                           </div>                
                         </div>
                     </div>
             </div>
