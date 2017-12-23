@@ -2,7 +2,10 @@
 html,
 body {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
+    position: relative;
+    overflow-y: scroll;
 }
 /*navbar*/
 .navbar.navbar-dark.bg-dark {
@@ -19,7 +22,8 @@ div.card :hover {
 
 /*cover*/
 #cover {
-    background: #721924;
+    /* background: #721924; */
+    background-image: linear-gradient(to top, #6A000D 0%, #8A1321 100%);
     background-size:cover;
     color:white;
     height: 100%;
